@@ -1,0 +1,30 @@
+
+.app {
+  overflow: hidden;
+  width: 95vw;
+  font-family: "Arial";
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  gap: 5rem;
+  margin: 0 auto;
+}
+
+.app > * {
+  flex-basis: 50%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.select {
+  display: flex;
+  gap: 1rem;
+}
+
+
+.app textarea {
+  width: 100%;
+  height: 95vh;
+}
